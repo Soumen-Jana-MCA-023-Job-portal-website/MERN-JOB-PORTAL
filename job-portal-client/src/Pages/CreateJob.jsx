@@ -1,8 +1,11 @@
 import { useForm } from "react-hook-form";
 import CreatableSelect from "react-select/creatable";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const CreateJob = () => {
+  useEffect(() => {
+    document.title = 'Job Portal - Create Job';
+  }, []);
   const [selectedOption, setSelectedOption] = useState(null);
   const {
     register,

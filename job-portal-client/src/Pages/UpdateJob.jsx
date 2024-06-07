@@ -1,9 +1,12 @@
 import { useForm } from "react-hook-form";
 import CreatableSelect from "react-select/creatable";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 
 const UpdateJob = () => {
+  useEffect(() => {
+    document.title = 'Job Portal - Update Job';
+  }, []);
   const { id } = useParams();
   //   console.log(id);
   const {

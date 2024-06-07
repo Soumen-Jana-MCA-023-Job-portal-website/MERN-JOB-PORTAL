@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const MyJobs = () => {
+  useEffect(() => {
+    document.title = 'Job Portal - My Jobs';
+  }, []);
   const [jobs, setJobs] = useState([]);
   const [searchText, setSearchText] = useState("");
   const [isLoading, setIsLoading] = useState(true);

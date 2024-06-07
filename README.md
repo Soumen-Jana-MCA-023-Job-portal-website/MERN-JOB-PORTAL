@@ -1,7 +1,7 @@
 
 # Job Portal Website
 
-This MERN stack project is a comprehensive and responsive Job Portal Website designed to facilitate job seekers and employers alike. Users will learn how to filter job listings by various criteria such as title, location, and posting time, enhancing search efficiency. The project also covers implementing robust user authentication and registration systems, allowing users to sign up using email, password, or their Gmail accounts. Registered users can post, edit, and manage their job listings seamlessly. Additionally, the project includes implementing pagination for efficient data handling and crafting an intuitive and visually appealing user interface to ensure an exceptional user experience.
+This MERN stack project is a responsive Job Portal Website for job seekers and employers. It has features like filtering job listings by title, location, and posting time, and user authentication, etc. Registered users can post, edit, and manage job listings. The project also has pagination for job listing and user-friendly interface for a great experience.
 
 
 ## Tech Stack

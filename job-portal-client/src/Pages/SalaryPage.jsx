@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import PageHeader from "../components/PageHeader";
 
 const SalaryPage = () => {
+    useEffect(() => {
+        document.title = 'Job Portal - Salary';
+      }, []);
     const [searchText, setSearchText] = useState("");
     const [salary, setSalary] = useState([])
 

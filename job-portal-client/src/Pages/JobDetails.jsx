@@ -10,6 +10,7 @@ const JobDetails = () => {
     fetch(`http://localhost:3000/all-jobs/${id}`)
       .then((res) => res.json())
       .then((data) => setJob(data));
+      document.title = job.jobTitle;
   }, []);
 
   const handleApply = async () => {

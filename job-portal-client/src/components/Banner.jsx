@@ -7,13 +7,13 @@ const Banner = ({ query, handleInputChange }) => {
       <h1 className="text-5xl font-bold text-primary mb-3">
         Find your <span className="text-blue">new job</span> today{" "}
       </h1>
-      <p className="text-lg text-black">
+      <p className="text-lg text-black mb-10">
         Thousads of jobs in the computer engineering and technology sectors are
-        waiting for you
+        waiting for you.
       </p>
 
       <form>
-        <div className="flex justify-start md:flex-row flex-col md:gap-0 gap-4">
+        <div className="flex justify-start md:flex-row flex-col md:gap-0 gap-4 space-x-4">
           <div className="flex md:rounded-s-md rounded shadow-sm ring-1 ring-inset focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 md:w-1/2 w-full">
             <input
               type="text"
@@ -25,7 +25,7 @@ const Banner = ({ query, handleInputChange }) => {
             />
             <FiSearch className="absolute mt-2.5 ml-2 text-gray-400" />
           </div>
-          <div className="flex md:rounded-s-none rounded shadow-sm ring-1 ring-inset focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 md:w-1/3 w-full">
+          <div className="flex md:rounded-s-md rounded shadow-sm ring-1 ring-inset focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 md:w-1/3 w-full">
             <input
               type="text"
               name="title"
@@ -35,7 +35,7 @@ const Banner = ({ query, handleInputChange }) => {
             <FiMapPin className="absolute mt-2.5 ml-2 text-gray-400" />
           </div>
 
-          <button type="submit" className="bg-blue py-2 px-8 text-white md:rounded-s-none rounded">Search</button>
+          <button type="submit" className="bg-blue py-2 px-8 text-white md:rounded-s-md rounded">Search</button>
         </div>
       </form>
     </div>

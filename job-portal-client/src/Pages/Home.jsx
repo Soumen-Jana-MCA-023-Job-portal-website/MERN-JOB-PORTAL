@@ -6,6 +6,10 @@ import Sidebar from "../sidebar/Sidebar";
 import Newsletter from "../components/Newsletter";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Job Portal - Home';
+  }, []);
+
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [jobs, setJobs] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
