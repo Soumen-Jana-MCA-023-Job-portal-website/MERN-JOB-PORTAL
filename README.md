@@ -44,7 +44,7 @@ Open http://localhost:5173 with your browser to see the result.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/Soumen-Jana-MCA-023-Job-portal-website/MERN-JOB-PORTAL/main/screenshot1.jpg)
 
 
 ## Future Work
