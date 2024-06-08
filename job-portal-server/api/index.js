@@ -46,11 +46,11 @@ async function run() {
         }
     })
 
-    // get all jobs
-    app.get("/all-jobs", async(req, res) => {
-        const jobs = await jobsCollections.find({}).toArray()
-        res.send(jobs);
-    })
+    // // get all jobs
+    // app.get("/all-jobs", async(req, res) => {
+    //     const jobs = await jobsCollections.find({}).toArray()
+    //     res.send(jobs);
+    // })
 
     // get single job using id
     app.get("/all-jobs/:id" , async(req, res) => {
@@ -107,7 +107,17 @@ run().catch(console.dir);
 
 
 
+// get all jobs
+app.get("/all-jobs", async(req, res) => {
+      // Connect the client to the server	(optional starting in v4.7)
+      await client.connect();
 
+      // create database
+      const db = client.db("mernJobPortal");
+      const jobsCollections = db.collection("demoJobs")
+  const jobs = await jobsCollections.find({}).toArray()
+  res.send(jobs);
+})
 
 
 app.get('/', (req, res) => {
