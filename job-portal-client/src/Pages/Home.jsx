@@ -110,7 +110,7 @@ const Home = () => {
       <Banner query={query} handleInputChange={handleInputChange} />
 
       {/* main contents */}
-      <div className="bg-[#FAFAFA] md:grid grid-cols-4 gap-8 lg:px-24 px-4 py-12">
+      <div className="bg-[#f3f3f3] md:grid grid-cols-4 gap-8 lg:px-24 px-4 py-12">
         {/* left side */}
         <div className="bg-white p-4 rounded">
           <Sidebar handleChange={handleChange} handleClick={handleClick} />

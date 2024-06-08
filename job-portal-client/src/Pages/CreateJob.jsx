@@ -131,7 +131,7 @@ const CreateJob = () => {
                 className="create-job-input"
               >
                 <option value="">Choose your experience</option>
-                <option value="Any Experience">Any Experience</option>
+                <option value="No Experience">No Experience</option>
                 <option value="Internship">Internship</option>
                 <option value="Work remotely">Work remotely</option>
               </select>
