@@ -8,7 +8,7 @@ const Banner = ({ query, handleInputChange }) => {
         Find your <span className="text-blue">new job</span> today{" "}
       </h1>
       <p className="text-lg text-black mb-10">
-        Thousads of jobs in the computer engineering and technology sectors are
+        Thousands of jobs in the computer engineering and technology sectors are
         waiting for you.
       </p>
 
