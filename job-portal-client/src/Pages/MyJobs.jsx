@@ -15,7 +15,7 @@ const itemsPerPage = 4;
 
   useEffect(() => {
     setIsLoading(true);
-    fetch(`http://localhost:3000/myJobs/soumen@gmail.com`)
+    fetch(import.meta.env.VITE_URL+`/myJobs/soumen@gmail.com`)
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);
@@ -54,7 +54,7 @@ const itemsPerPage = 4;
 
   const handleDelete = (id) => {
     // console.log(id)
-    fetch(`http://localhost:3000/job/${id}`,{
+    fetch(import.meta.env.VITE_URL+`/job/${id}`,{
         method: "DELETE",
       })
         .then((res) => res.json)

@@ -7,7 +7,7 @@ const JobDetails = () => {
   const { id } = useParams();
   const [job, setJob] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:3000/all-jobs/${id}`)
+    fetch(import.meta.env.VITE_URL+`/all-jobs/${id}`)
       .then((res) => res.json())
       .then((data) => setJob(data));
       document.title = job.jobTitle;
