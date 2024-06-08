@@ -4,6 +4,10 @@ const cors = require('cors')
 const port = process.env.PORT || 3000;
 require('dotenv').config()
 
+const corsOptions = {
+  origin: "https://jobportal-soumen.vercel.app:5173"
+}
+
 // middleware
 app.use(express.json())
 app.use(cors())
