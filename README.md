@@ -53,9 +53,4 @@ Future work for the Job Portal Website includes enhancing search filters, Improv
 An employer analytics dashboard and enhanced security features like two-factor authentication and data encryption will expand usability and protect user data.
 ## Deployment
 
-To deploy this project run
-
-```bash
- 
-```
-
+This project is deployed on Vercel.
