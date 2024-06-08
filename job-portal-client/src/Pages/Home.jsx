@@ -119,7 +119,7 @@ const Home = () => {
         {/* Job cards */}
         <div className="col-span-2 bg-white p-4 rounded-sm">
           {isLoading ? (
-            <p className="font-medium">Laoding....</p>
+            <p className="font-medium">Loading....</p>
           ) : result.length > 0 ? (
             <Jobs result={result} />
           ) : (
