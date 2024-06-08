@@ -18,7 +18,7 @@ const Card = ({data}) => {
               <span className='flex items-center gap-2'> <FiDollarSign/> {minPrice}-{maxPrice} </span>
               <span className='flex items-center gap-2'> <FiCalendar/> {postingDate} </span>
             </div>
-            <p className='text-base text-primary/70'>{description}</p>
+            <p className='text-base text-primary/70 line-clamp-3'>{description}</p>
         </div>
         </Link>
       </section>
