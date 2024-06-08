@@ -1,6 +1,6 @@
 
 # Job Portal Website
-
+Starting Date: 03.06.2024 --------- Development Phase
 This MERN stack project is a responsive Job Portal Website for job seekers and employers. It has features like filtering job listings by title, location, and posting time, and user authentication, etc. Registered users can post, edit, and manage job listings. The project also has pagination for job listing and user-friendly interface for a great experience.
 
 
