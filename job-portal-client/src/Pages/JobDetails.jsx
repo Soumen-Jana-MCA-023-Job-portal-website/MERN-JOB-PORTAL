@@ -17,7 +17,7 @@ const JobDetails = () => {
     const { value: url } = await Swal.fire({
       input: "url",
       inputLabel: "URL address",
-      inputPlaceholder: "Enter the URL",
+      inputPlaceholder: "Enter your Linkdin URL",
     });
     if (url) {
       Swal.fire(`Entered URL: ${url}`);
